@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "fuck-reddit": "node run src/scripts/fuck-reddit.mjs"
   },
   "dependencies": {
     "vue": "^3.2.47"
