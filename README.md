@@ -18,7 +18,7 @@
 
 ## How to Run the Project
 
-1. Clone this repository: `git clone https://github.com/datsfilipe/readme-generator.git`.
+1. Clone this repository: `git clone https://github.com/datsfilipe/my-rices.git`.
 2. Open the project folder in the terminal.
 3. Run `pnpm install` to install the dependencies (or use your preferred package manager).
 4. Run `pnpm dev` to start the application in a development environment on `http://localhost:5173`.
