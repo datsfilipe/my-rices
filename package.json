@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview",
-    "fuck-reddit": "node run src/scripts/fuck-reddit.mjs"
+    "preview": "vite preview"
   },
   "dependencies": {
     "vue": "^3.2.47"
@@ -18,7 +17,6 @@
     "@vitejs/plugin-vue": "^4.1.0",
     "eslint": "^8.42.0",
     "eslint-plugin-vue": "^9.14.1",
-    "puppeteer": "^20.5.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
     "vue-tsc": "^1.4.2"
