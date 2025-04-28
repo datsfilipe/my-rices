@@ -1,35 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { ThemeProvider } from "@/components/theme/provider.tsx";
+import { ThemeToggle } from "@/components/theme/toggle";
+import { RiceGallery } from "@/components/gallery";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <ThemeProvider defaultTheme="dark">
+      <div className="min-h-screen bg-background">
+        <header className="sticky top-0 z-10 border-b bg-background/80 backdrop-blur">
+          <div className="container flex h-16 items-center justify-between">
+            <h1 className="text-2xl font-bold tracking-tight">
+              <span className="text-primary">Unix</span>Rice
+            </h1>
+            <div className="flex items-center gap-4">
+              <ThemeToggle />
+            </div>
+          </div>
+        </header>
+        <main className="container py-8">
+          <section className="mb-8 space-y-4">
+            <h2 className="text-3xl font-bold tracking-tight">
+              My Rice Collection
+            </h2>
+            <p className="text-muted-foreground">
+              A showcase of my Unix customization screenshots. Click on any
+              image to view in detail.
+            </p>
+          </section>
+          <RiceGallery />
+        </main>
+        <footer className="border-t py-6">
+          <div className="container text-center text-sm text-muted-foreground">
+            &copy; {new Date().getFullYear()} UnixRice Gallery
+          </div>
+        </footer>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </ThemeProvider>
+  );
 }
 
-export default App
+export default App;
