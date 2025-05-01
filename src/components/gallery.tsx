@@ -48,7 +48,7 @@ export function RiceGallery() {
                 />
               )}
               <img
-                src={rice.image}
+                src={rice['mini-image']}
                 alt={rice.title}
                 className={cn(
                   "h-full w-full object-cover transition-transform duration-300 group-hover:scale-105",

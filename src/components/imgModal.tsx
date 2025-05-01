@@ -19,6 +19,7 @@ type SelectedRice = {
   title: string;
   description: string;
   image: string;
+  'mini-image': string;
   tags: string[];
   wm: string;
   date: string;
@@ -198,16 +199,14 @@ export function ImgModal({
                 {!dialogImageLoaded && (
                   <div className="relative flex items-center justify-center bg-muted">
                     <Skeleton
-                      className="w-full"
+                      className="w-full text-8xl"
                       style={{
                         aspectRatio: selectedRice.dimensions ?
                           Number(selectedRice.dimensions.split('x')[0]) /
                           Number(selectedRice.dimensions.split('x')[1]) : 16 / 9
                       }}
+                      text={selectedRice.dimensions}
                     />
-                    <span className="absolute text-sm text-muted-foreground">
-                      {selectedRice.dimensions}
-                    </span>
                   </div>
                 )}
                 <img
