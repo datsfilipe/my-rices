@@ -1,6 +1,6 @@
 # datsrice
 
-A Vite + React application showcasing my r/unixporn rice setups.
+A Vite + React app for showing collection of @datsfilipe's unix customization screenshots.
 
 ### Deploy
 
