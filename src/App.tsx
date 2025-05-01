@@ -7,7 +7,7 @@ function App() {
     <ThemeProvider defaultTheme="dark">
       <div className="min-h-screen bg-background flex flex-col items-center justify-center">
         <header className="w-full flex items-center justify-center sticky top-0 z-10 border-b bg-[var(--card)]/80 backdrop-blur">
-          <div className="container flex h-16 items-center justify-between">
+          <div className="container px-4 flex h-16 items-center justify-between">
             <h1 className="text-2xl font-bold tracking-tight">
               <b className="text-[var(--primary-accenty)]">datsrice</b>
             </h1>
@@ -16,7 +16,7 @@ function App() {
             </div>
           </div>
         </header>
-        <main className="container py-8">
+        <main className="container py-8 px-4">
           <section className="mb-8 space-y-4">
             <h2 className="text-3xl font-bold tracking-tight">
               Rice Collection
