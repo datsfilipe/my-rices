@@ -1,0 +1,178 @@
+[
+	{
+		"id": 1,
+		"title": "Finally did a good rice with Paradise :)",
+		"description": "Rice using the Paradise theme for bspwm",
+		"image": "/rices/paradise+bspwm.png",
+    "mini-image": "/rices/paradise+bspwm-.png",
+		"tags": ["paradise", "bspwm"],
+		"wm": "bspwm",
+		"date": "2025-04-07",
+		"dimensions": "1440x2700"
+	},
+	{
+		"id": 2,
+		"title": "Back to i3 (it actually looks cool with Vesper)",
+		"description": "Rice using the Vesper theme for i3",
+		"image": "/rices/vesper+i3.png",
+    "mini-image": "/rices/vesper+i3-.png",
+		"tags": ["vesper", "i3"],
+		"wm": "i3",
+		"date": "2025-04-27",
+		"dimensions": "1920x2160"
+	},
+	{
+		"id": 3,
+		"title": "Waking up",
+		"description": "Rice using the Carbon theme for bspwm",
+		"image": "/rices/carbon+bspwm_2.png",
+    "mini-image": "/rices/carbon+bspwm_2-.png",
+		"tags": ["carbon", "bspwm"],
+		"wm": "bspwm",
+		"date": "2025-04-07",
+		"dimensions": "1440x1800"
+	},
+	{
+		"id": 4,
+		"title": "Nothing big just showcasing my theme",
+		"description": "Rice using the Min theme for i3",
+		"image": "/rices/min+i3.png",
+    "mini-image": "/rices/min+i3-.png",
+		"tags": ["min", "i3"],
+		"wm": "i3",
+		"date": "2025-04-27",
+		"dimensions": "7680x8640"
+	},
+	{
+		"id": 5,
+		"title": "Flashbang",
+		"description": "Rice using the Paradise theme for bspwm",
+		"image": "/rices/paradise+bspwm_1.png",
+    "mini-image": "/rices/paradise+bspwm_1-.png",
+		"tags": ["paradise", "bspwm"],
+		"wm": "bspwm",
+		"date": "2025-04-07",
+		"dimensions": "1440x1800"
+	},
+	{
+		"id": 6,
+		"title": "Early gruvbox days",
+		"description": "Rice using the Gruvbox theme for i3",
+		"image": "/rices/gruvbox+i3.png",
+    "mini-image": "/rices/gruvbox+i3-.png",
+		"tags": ["gruvbox", "i3"],
+		"wm": "i3",
+		"date": "2025-04-07",
+		"dimensions": "1440x1800"
+	},
+	{
+		"id": 7,
+		"title": "Gnome rice (are DE's even allowed?)",
+		"description": "Rice using the Min theme for gnome",
+		"image": "/rices/min+gnome.png",
+    "mini-image": "/rices/min+gnome-.png",
+		"tags": ["min", "gnome"],
+		"wm": "gnome",
+		"date": "2025-04-07",
+		"dimensions": "1440x2700"
+	},
+	{
+		"id": 8,
+		"title": "Vesper meets Niri!",
+		"description": "Rice using the Vesper theme for niri",
+		"image": "/rices/vesper+niri.png",
+    "mini-image": "/rices/vesper+niri-.png",
+		"tags": ["vesper", "niri"],
+		"wm": "niri",
+		"date": "2025-04-27",
+		"dimensions": "1920x3240"
+	},
+	{
+		"id": 9,
+		"title": "Gojobox",
+		"description": "Rice using the Gruvbox theme for hyprland",
+		"image": "/rices/gruvbox+hyprland.png",
+    "mini-image": "/rices/gruvbox+hyprland-.png",
+		"tags": ["gruvbox", "hyprland"],
+		"wm": "hyprland",
+		"date": "2025-04-27",
+		"dimensions": "1920x2160"
+	},
+	{
+		"id": 10,
+		"title": "Gruvcarbon",
+		"description": "Rice using the Gruvbox theme for carbon",
+		"image": "/rices/gruvbox_carbon+bspwm.png",
+    "mini-image": "/rices/gruvbox_carbon+bspwm-.png",
+		"tags": ["gruvbox", "carbon", "bspwm"],
+		"wm": "carbon",
+		"date": "2025-04-07",
+		"dimensions": "2975x1850"
+	},
+	{
+		"id": 11,
+		"title": "U know u're on my mind",
+		"description": "Rice using the Gruvbox theme for i3",
+		"image": "/rices/gruvbox+i3_1.png",
+    "mini-image": "/rices/gruvbox+i3_1-.png",
+		"tags": ["gruvbox", "i3"],
+		"wm": "i3",
+		"date": "2025-04-27",
+		"dimensions": "1920x3240"
+	},
+	{
+		"id": 12,
+		"title": "Rice with IBM Carbon colorscheme succesfully made!",
+		"description": "Rice using the Carbon theme for bspwm",
+		"image": "/rices/carbon+bspwm_1.png",
+    "mini-image": "/rices/carbon+bspwm_1-.png",
+		"tags": ["carbon", "bspwm"],
+		"wm": "bspwm",
+		"date": "2025-04-07",
+		"dimensions": "1440x2700"
+	},
+	{
+		"id": 13,
+		"title": "Vesper :0",
+		"description": "Rice using the Vesper theme for hyprland",
+		"image": "/rices/vesper+hyprland.png",
+    "mini-image": "/rices/vesper+hyprland-.png",
+		"tags": ["vesper", "hyprland"],
+		"wm": "hyprland",
+		"date": "2025-04-27",
+		"dimensions": "3840x4320"
+	},
+	{
+		"id": 14,
+		"title": "Shinji and I are having fun",
+		"description": "Rice using the Min theme for bspwm",
+		"image": "/rices/min+bspwm.png",
+    "mini-image": "/rices/min+bspwm-.png",
+		"tags": ["min", "bspwm"],
+		"wm": "bspwm",
+		"date": "2025-04-07",
+		"dimensions": "1600x2000"
+	},
+	{
+		"id": 15,
+		"title": "Chill rice",
+		"description": "Rice using the Carbon theme for bspwm",
+		"image": "/rices/carbon+bspwm.png",
+    "mini-image": "/rices/carbon+bspwm-.png",
+		"tags": ["carbon", "bspwm"],
+		"wm": "bspwm",
+		"date": "2025-04-07",
+		"dimensions": "1440x1800"
+	},
+	{
+		"id": 16,
+		"title": "Soleva",
+		"description": "Rice using the Min theme for hyprland",
+		"image": "/rices/min_solarized+hyprland.png",
+    "mini-image": "/rices/min_solarized+hyprland-.png",
+		"tags": ["min", "solarized", "hyprland"],
+		"wm": "solarized",
+		"date": "2025-04-27",
+		"dimensions": "3926x2246"
+	}
+]

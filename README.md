@@ -1,56 +1,54 @@
-<div align="center">
+# React + TypeScript + Vite
 
-# My "Rices"
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-[![GitHub stars](https://img.shields.io/github/stars/datsfilipe/my-rices.svg)](https://github.com/datsfilipe/my-rices/stargazers)
-![Repository Size](https://img.shields.io/github/repo-size/datsfilipe/my-rices.svg)
-![Language Count](https://img.shields.io/github/languages/count/datsfilipe/my-rices.svg)
-![Last Commit](https://img.shields.io/github/last-commit/datsfilipe/my-rices.svg)
-![Version](https://img.shields.io/badge/version-1.0-blue.svg)
+Currently, two official plugins are available:
 
-<br/>
-<br/>
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-![Preview Image](./src/assets/preview.png)
+## Expanding the ESLint configuration
 
-<br/>
-</div>
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-## How to Run the Project
+```js
+export default tseslint.config({
+  extends: [
+    // Remove ...tseslint.configs.recommended and replace with this
+    ...tseslint.configs.recommendedTypeChecked,
+    // Alternatively, use this for stricter rules
+    ...tseslint.configs.strictTypeChecked,
+    // Optionally, add this for stylistic rules
+    ...tseslint.configs.stylisticTypeChecked,
+  ],
+  languageOptions: {
+    // other options...
+    parserOptions: {
+      project: ['./tsconfig.node.json', './tsconfig.app.json'],
+      tsconfigRootDir: import.meta.dirname,
+    },
+  },
+})
+```
 
-1. Clone this repository: `git clone https://github.com/datsfilipe/my-rices.git`.
-2. Open the project folder in the terminal.
-3. Run `pnpm install` to install the dependencies (or use your preferred package manager).
-4. Run `pnpm dev` to start the application in a development environment on `http://localhost:5173`.
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-## How to Contribute
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
-Follow these steps to contribute to the project:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch-name`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin feature-branch-name`.
-5. Open a pull request.
-
-Please ensure that your code adheres to the project's coding standards.
-
-## Contributors
-
-<table>
-    <tr>
-        <td align="center">
-            <a href="https://github.com/datsfilipe">
-                <img src="https://github.com/datsfilipe.png" width="100px;" alt="Filipe's Photo"/><br>
-                <sub>
-                    <b>Filipe Lima</b>
-                </sub>
-            </a>
-        </td>
-    </tr>
-</table>
-
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+export default tseslint.config({
+  plugins: {
+    // Add the react-x and react-dom plugins
+    'react-x': reactX,
+    'react-dom': reactDom,
+  },
+  rules: {
+    // other rules...
+    // Enable its recommended typescript rules
+    ...reactX.configs['recommended-typescript'].rules,
+    ...reactDom.configs.recommended.rules,
+  },
+})
+```
