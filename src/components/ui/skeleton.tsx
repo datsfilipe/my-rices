@@ -1,15 +1,24 @@
-import type React from "react";
 import { cn } from "@/lib/utils";
+import { HTMLAttributes } from "react";
+
+type SkeletonProps = HTMLAttributes<HTMLDivElement> & {
+  text?: string;
+};
 
 function Skeleton({
   className,
+  text,
   ...props
-}: React.HTMLAttributes<HTMLDivElement>) {
+}: SkeletonProps) {
   return (
     <div
-      className={cn("animate-pulse rounded-md bg-muted", className)}
+      className={cn(" text-neutral-100 rounded-md flex justify-center ", className)}
       {...props}
-    />
+    >
+      <b className="animate-pulse text-neutral-600 dark:text-neutral-400 py-6">
+        {text}
+      </b>
+    </div >
   );
 }
 

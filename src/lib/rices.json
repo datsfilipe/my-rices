@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"title": "Paradise Bspwm",
+		"title": "Finally did a good rice with Paradise :)",
 		"description": "Rice using the Paradise theme for bspwm",
 		"image": "/rices/paradise+bspwm.png",
 		"tags": ["paradise", "bspwm"],
@@ -11,7 +11,7 @@
 	},
 	{
 		"id": 2,
-		"title": "Vesper I3",
+		"title": "Back to i3 (it actually looks cool with Vesper)",
 		"description": "Rice using the Vesper theme for i3",
 		"image": "/rices/vesper+i3.png",
 		"tags": ["vesper", "i3"],
@@ -21,7 +21,7 @@
 	},
 	{
 		"id": 3,
-		"title": "Carbon Bspwm 2",
+		"title": "Waking up",
 		"description": "Rice using the Carbon theme for bspwm",
 		"image": "/rices/carbon+bspwm_2.png",
 		"tags": ["carbon", "bspwm"],
@@ -31,7 +31,7 @@
 	},
 	{
 		"id": 4,
-		"title": "Min I3",
+		"title": "Nothing big just showcasing my theme",
 		"description": "Rice using the Min theme for i3",
 		"image": "/rices/min+i3.png",
 		"tags": ["min", "i3"],
@@ -41,7 +41,7 @@
 	},
 	{
 		"id": 5,
-		"title": "Paradise Bspwm 1",
+		"title": "Flashbang",
 		"description": "Rice using the Paradise theme for bspwm",
 		"image": "/rices/paradise+bspwm_1.png",
 		"tags": ["paradise", "bspwm"],
@@ -51,7 +51,7 @@
 	},
 	{
 		"id": 6,
-		"title": "Gruvbox I3",
+		"title": "Early gruvbox days",
 		"description": "Rice using the Gruvbox theme for i3",
 		"image": "/rices/gruvbox+i3.png",
 		"tags": ["gruvbox", "i3"],
@@ -61,7 +61,7 @@
 	},
 	{
 		"id": 7,
-		"title": "Min Gnome",
+		"title": "Gnome rice (are DE's even allowed?)",
 		"description": "Rice using the Min theme for gnome",
 		"image": "/rices/min+gnome.png",
 		"tags": ["min", "gnome"],
@@ -71,7 +71,7 @@
 	},
 	{
 		"id": 8,
-		"title": "Vesper Niri",
+		"title": "Vesper meets Niri!",
 		"description": "Rice using the Vesper theme for niri",
 		"image": "/rices/vesper+niri.png",
 		"tags": ["vesper", "niri"],
@@ -81,7 +81,7 @@
 	},
 	{
 		"id": 9,
-		"title": "Gruvbox Hyprland",
+		"title": "Gojobox",
 		"description": "Rice using the Gruvbox theme for hyprland",
 		"image": "/rices/gruvbox+hyprland.png",
 		"tags": ["gruvbox", "hyprland"],
@@ -91,7 +91,7 @@
 	},
 	{
 		"id": 10,
-		"title": "Gruvbox Carbon Bspwm",
+		"title": "Gruvcarbon",
 		"description": "Rice using the Gruvbox theme for carbon",
 		"image": "/rices/gruvbox_carbon+bspwm.png",
 		"tags": ["gruvbox", "carbon", "bspwm"],
@@ -101,7 +101,7 @@
 	},
 	{
 		"id": 11,
-		"title": "Gruvbox I3 1",
+		"title": "U know u're on my mind",
 		"description": "Rice using the Gruvbox theme for i3",
 		"image": "/rices/gruvbox+i3_1.png",
 		"tags": ["gruvbox", "i3"],
@@ -111,7 +111,7 @@
 	},
 	{
 		"id": 12,
-		"title": "Carbon Bspwm 1",
+		"title": "Rice with IBM Carbon colorscheme succesfully made!",
 		"description": "Rice using the Carbon theme for bspwm",
 		"image": "/rices/carbon+bspwm_1.png",
 		"tags": ["carbon", "bspwm"],
@@ -121,7 +121,7 @@
 	},
 	{
 		"id": 13,
-		"title": "Vesper Hyprland",
+		"title": "Vesper :0",
 		"description": "Rice using the Vesper theme for hyprland",
 		"image": "/rices/vesper+hyprland.png",
 		"tags": ["vesper", "hyprland"],
@@ -131,7 +131,7 @@
 	},
 	{
 		"id": 14,
-		"title": "Min Bspwm",
+		"title": "Shinji and I are having fun",
 		"description": "Rice using the Min theme for bspwm",
 		"image": "/rices/min+bspwm.png",
 		"tags": ["min", "bspwm"],
@@ -141,7 +141,7 @@
 	},
 	{
 		"id": 15,
-		"title": "Carbon Bspwm",
+		"title": "Chill rice",
 		"description": "Rice using the Carbon theme for bspwm",
 		"image": "/rices/carbon+bspwm.png",
 		"tags": ["carbon", "bspwm"],
@@ -151,7 +151,7 @@
 	},
 	{
 		"id": 16,
-		"title": "Min Solarized Hyprland",
+		"title": "Soleva",
 		"description": "Rice using the Min theme for hyprland",
 		"image": "/rices/min_solarized+hyprland.png",
 		"tags": ["min", "solarized", "hyprland"],
