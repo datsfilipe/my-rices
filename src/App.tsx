@@ -1,6 +1,9 @@
 import { ThemeProvider } from "@/components/theme/provider.tsx";
 import { ThemeToggle } from "@/components/theme/toggle";
 import { RiceGallery } from "@/components/gallery";
+import {
+  ExternalLink,
+} from "lucide-react";
 
 function App() {
   return (
@@ -22,7 +25,12 @@ function App() {
               Rice Collection
             </h2>
             <p>
-              A showcase of my unix customization screenshots. Click on any
+              A showcase of my <a
+                className="text-[var(--primary-accent)] hover:underline underline-offset-2 inline-flex items-center gap-1"
+                href="https://github.com/datsfilipe/dotfiles"
+                target="_blank"
+                rel="noreferrer"
+              >unix customization <ExternalLink className="h-4 w-4" /></a> screenshots. Click on any
               image to view in detail.
             </p>
           </section>
